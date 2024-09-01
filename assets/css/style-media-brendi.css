@@ -1,0 +1,244 @@
+@media only screen and (min-width: 350px) and (max-width: 767px){
+    .ar-modal-title {
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    .lo{
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .logf{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        display: block;
+    }
+ 
+
+    .intro {
+        display: none;
+        color: #fff;
+    }
+    .ar-f {
+        padding: 50px 10px;
+        gap: 20px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    footer .request {
+        width: 100%;
+        background: #1E1E1E;
+    }
+    footer     input.textbox {
+        border: 2px solid #212121;
+        border-right: none;
+        outline: 0;
+        color: #333333;
+        height: 34.8px;
+        line-height: 35px;
+        padding-left: 10px;
+        width: clamp(30px, 14.1043rem + 14.4783vw, 340px);
+        float: left;
+        margin-left: 5px;
+    }
+    
+    .ar-opi {
+        padding: 30px 15px;
+    }
+    .ar-wt {
+        padding: 20px 0px;
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        padding: 17px 40px;
+        border-radius: 0px;
+        cursor: pointer;
+        border: 0;
+        background-color: #eac611;
+        box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        transition: all 0.5s ease;
+    }
+    .ar-f16{
+        font-size: 14px;
+    }
+    .ar-hh {
+        font-weight: 600;
+        color: #EF3800;
+        height: 100%;
+        line-height: 1.4;
+        font-size: 18px;
+    }
+    .ar-imag {
+        max-width: 100%;
+        width: 100%;
+        flex: 1 1 200px;
+    }
+    .ar-pro {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .uk-breadcrumb>*>* {
+        font-size: 14px;
+        color: #999;
+    }
+    .uk-search .uk-search-icon-flip {
+        right: 0;
+        left: 89%;
+    }
+    .uk-search-default:has(.uk-search-icon-flip) .uk-search-input {
+        padding-right: 0px;
+    }
+    .uk-search-default {
+        padding: 10px 10px 10px 0px;
+        width: 100%;
+    }
+    .uk-search-default .uk-search-input {
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 0px;
+        background: 0 0;
+        border: 2px solid #212121;
+    }
+    .ar-sea{
+        background: #fff;
+        padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    }
+    input.textbox {
+        border: 2px solid #212121;
+        border-right: none;
+        outline: 0;
+        color: #333333;
+        height: 34.8px;
+        line-height: 35px;
+        padding-left: 10px;
+        width: 140px;
+        float: left;
+        margin-left: 5px;
+    }
+    .log {
+
+        width: 100%;
+        color: white;
+  
+    }
+    .header-mob{
+        display: block;
+    }
+    .header {
+        display: none;
+        background: #212121;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 3767px){
+    input.textbox {
+        border: 2px solid #212121;
+        border-right: none;
+        outline: 0;
+        color: #333333;
+        height: 35.5px;
+        line-height: 35px;
+        padding-left: 10px;
+        width: 440px;
+        float: left;
+        margin-left: 5px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1190px){
+    .ar-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    input.textbox {
+        border: 2px solid #212121;
+        border-right: none;
+        outline: 0;
+        color: #333333;
+        height: 35.5px;
+        line-height: 35px;
+        padding-left: 10px;
+        width: 240px;
+        float: left;
+        margin-left: 5px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    footer .request {
+        width: 50%;
+        background: #1E1E1E;
+    }
+    footer     input.textbox {
+        border: 2px solid #212121;
+        border-right: none;
+        outline: 0;
+        color: #333333;
+        height: 34.8px;
+        line-height: 35px;
+        padding-left: 10px;
+        width: 340px;
+        float: left;
+        margin-left: 5px;
+    }
+    .ar-f {
+        padding: 50px 10px;
+        gap: 20px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .ar-wt {
+        padding: 20px 0px;
+        width: 100%;
+    }
+    .ar-imag {
+        max-width: 100%; 
+        width: 100%;
+        flex: 1 1 500px;
+    }
+    .ar-pro {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ar-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    input.textbox {
+        border: 2px solid #212121;
+        border-right: none;
+        outline: 0;
+        color: #333333;
+        height: 34.8px;
+        line-height: 35px;
+        padding-left: 10px;
+        width: 140px;
+        float: left;
+        margin-left: 5px;
+    }
+    .clearfix {
+        padding-left: 20px;
+        gap: 40px;
+        display: flex;
+        align-items: center;
+    }
+}
